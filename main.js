@@ -1,13 +1,15 @@
-let num1 = parseInt(prompt("Ingrese el primer numero"));
-let num2 = parseInt(prompt("Ingrese el segundo numero"));
-let num3 = parseInt(prompt("Ingrese el tercer numero"));
-let num4 = parseInt(prompt("Ingrese el cuarto numero"));
 let base = Number(prompt("Ingrese la base del triangulo : "));
 let altura = Number(prompt("Ingrese la altura del triangulo : "))
-let area 
+let are
 area = (base*altura) / 2
+const pi = 3.14;
 
-let media = (num1+num2+num3+num4)/4;
-
-alert("La media de los cuatro numeros es " + media);
 alert("El area del triangulo es : " + area)
+let radio = Number (prompt("Ingrese el radio del circulo"));
+
+let long = 2*pi*radio;
+
+let area = pi*radio*2;
+
+alert ("La longitud de la circuferencia es " + long);
+alert ("El area de la circuferencia es " + area);
