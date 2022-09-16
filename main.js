@@ -1,11 +1,12 @@
-let espacio = Number (prompt("Digite el espacio en km recorido de  la bala" ));
-let tiempo = Number (prompt("Digite el tiempo recorrido de la bala"));
 const pi = 3.14;
+let a = Number(prompt("Digite el valor de a"));
+let b = Number(prompt("Digite el valor de b"));
+let c = Number(prompt("Digite el valor de c"));
 
-let velocidad = (espacio*1000) / (tiempo*60);
 let radio = Number(prompt("Digite el radio de la circunferencia"));
+let resultado = (a+7*c)/(b+2-a)+2*b ;
 
-alert ("La velocidad recorrida del proyectil es " + velocidad + "'m/s'");
 let volumen = (4/3)*pi*radio**3;
 
 alert ("El volumen de la esfera es " + volumen);
+alert("El resultado de la expresion es  " + resultado);
