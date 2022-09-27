@@ -1,18 +1,15 @@
-let numeo1 = number(prompt('Ingree el primer numeor'));
-let numeo2 = number(prompt('Ingree el segundo numeor'));
-let valor = number(prompt('Ingrese el valor de la compra'));
-let tipMembresia = prompt('Ingrese el tipo de membresia que tiene, tipo A, tipo B o tipo C');
-if (numero1>numero2){
-    resta = numero1 - numero2
-    document.write('El resultado de la resta es' + resta)
-if (tipMembresia == "tipo A"){
-    totPago1 = (valor) - (valor*0.10)
-    alert("El valor a pagar por poseer la membresia tipo A  es de" + totPago1);
-}else if (tipMembresia == "tipo B"){
-    totPago2 = (valor) - (valor*0.15)
-    alert("El valor a pagar por poseer la membresia tipo B es de" + totPago2);
-}else{
-    alert("La operacion no es posible")
-    alert("El valor a pagar por no poseer ningun tipo de membresia es de " + valor);
+const precioMin=355;
+let cantidadMed=parseInt(prompt('Ingrese la cantidad de minutos hablados '));
+let totalMed=0;
+for (let i=0; i<cantidadMed;i++){
+    let precioMed=parseInt(prompt('Ingrese el precio del producto ${i+1}'));
+    totalMed=precioMed+totalMed:
 }
-}
+let minuto = parseInt(prompt('Ingrese la cantidad'));
+let pagar = minuto*precioMin+((minuto*precioMin)*0.2);
+document.getElementById('pagar').innerHTML=pagar;
+let descuento = totalMed*0.10;
+let precioFin = totalMed-descuento;
+console.log(descuento)
+documento.getElementById('descuento').innerHTML= descuento;
+document.getElementById('precio').innerHTML=precioFin;
