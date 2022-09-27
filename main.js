@@ -1,14 +1,12 @@
-let a = Number(prompt("Digite el valor de a"));
-let b = Number(prompt("Digite el valor de b"));
-let c = Number(prompt("Digite el valor de c"));
-const pi = 3.14;
-let radio = Number(prompt("Digite el radio del cilindro "));
-let altura = Number(prompt("Digite la altura del cilindro "));
-
-let resultado = (a+7*c)/(b+2-a)+2*b ;
-let area = (2 * (pi * rad**2)) + ((2 * pi * rad) * alt);
-let volumen = (pi * rad**2) * alt;
-
-alert("El resultado de la expresion es  " + resultado);
-alert("El area del cilindro es " + area);
-alert("El volumen del cilindro es " + volumen)
+let radio = parseInt(prompt('Ingrese el radio del cilindro'));
+let altura = parseInt(prompt('Ingrese la altura del cilindro'));
+const x = 3;
+let area = (2*(Math.PI*radio**2))+((2*Math.PI*radio)*altura);
+let volumen = (Math.PI*radio**2)*altura;
+let a = parseInt(prompt('Ingrese el valor de a'));
+let b = parseInt(prompt('Ingrese el valor de b'));
+let c = parseInt(prompt('Ingrese el valor de c'));
+document.getElementById('area').innerHTML=area;
+document.getElementById('volumen').innerHTML=volumen;
+let raiz = a * x**2 + b * x + c;
+document.getElementById('raiz').innerHTML=raiz;
