@@ -1,3 +1,10 @@
-let gradoCentigrado = Number(prompt('Ingrese los grados centigrados')),
-let gradoFahrenheit = (gradoCentigrado*(9/5))+32
-alert ('Los grados Fahrenheit son :' +gradoFahrenheit);
+let parcial1 = Number(prompt('Ingrese la calificacion del primer parcial'));
+let parcial2 = Number(prompt('Ingrese la calificacion del segundo parcial '));
+let parcial3 = Number(prompt('Ingrese la calificacion del tercer parcial'));
+let examenFinal = Number(prompt('Ingrese la calificacion del examen final'));
+let trabajoFinal = Number(prompt('Ingrese la calificacion del trabajo final'));
+let resultaParciales = ((parcial1+parcial2+parcial3)/3)*0.55;
+let resultaExamenF = examenFinal*0.30;
+let resultaTrabajoF = trabajoFinal*0.15;
+let calificacionFinal = (resultaParciales+resultaExamenF+resultaTrabajoF);
+alert('La caificacion del estudiante es : ' +calificacionFinal);
