@@ -1,10 +1,8 @@
-let parcial1 = Number(prompt('Ingrese la calificacion del primer parcial'));
-let parcial2 = Number(prompt('Ingrese la calificacion del segundo parcial '));
-let parcial3 = Number(prompt('Ingrese la calificacion del tercer parcial'));
-let examenFinal = Number(prompt('Ingrese la calificacion del examen final'));
-let trabajoFinal = Number(prompt('Ingrese la calificacion del trabajo final'));
-let resultaParciales = ((parcial1+parcial2+parcial3)/3)*0.55;
-let resultaExamenF = examenFinal*0.30;
-let resultaTrabajoF = trabajoFinal*0.15;
-let calificacionFinal = (resultaParciales+resultaExamenF+resultaTrabajoF);
-alert('La caificacion del estudiante es : ' +calificacionFinal);
+let precioProducto = Number(prompt('Digite el precio del producto'));
+let iva = Number(prompt('digite el iva sin %'));
+let TotalIva = Iva/100;
+let IvaProducto = precioProducto* TotalIva;
+let pagoTotal =precioProducto + IvaProducto;
+alert ('El iva del producto es de ' + IvaProducto);
+alert ('El total a pagar del producto es de ' + pagoTotal);
+
